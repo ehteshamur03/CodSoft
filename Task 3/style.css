@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    /* border:2px solid black; */
+}
+
+.cal {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: radial-gradient(white);
+
+}
+
+.cal form input {
+    background: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 5px;
+    box-shadow: inherit;
+    border: 1px solid black;
+    /* background: linear-gradient(to bottom right, #7b7b7b,#fbfbff); */
+}
+
+form .screen {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    border-radius: 10px;
+    align-items: center;
+    margin: 20px 0px;
+    /* border:2px solid black; */
+    /* visibility: visible;; */
+}
+
+form .screen input {
+    text-align: right;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form .row1 input {
+    background-color: rgb(255, 106, 0);
+    background: linear-gradient(10deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+}
+
+.background .dark {
+    background-color: black;
+}
