@@ -65,6 +65,12 @@ form .row1 input {
     background: linear-gradient(10deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
 }
 
-.background .dark {
-    background-color: black;
+footer {
+    background-color: #000000;
+    display: block;
+    color: #fff;
+    text-align: center;
+    position: static;
+    height: 20px;
+    width: 100%;
 }
