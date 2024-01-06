@@ -37,7 +37,6 @@
     margin: 5px;
     box-shadow: inherit;
     border: 1px solid black;
-    /* background: linear-gradient(to bottom right, #7b7b7b,#fbfbff); */
 }
 
 form .screen {
@@ -47,8 +46,6 @@ form .screen {
     border-radius: 10px;
     align-items: center;
     margin: 20px 0px;
-    /* border:2px solid black; */
-    /* visibility: visible;; */
 }
 
 form .screen input {
